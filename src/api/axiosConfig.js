@@ -5,7 +5,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:8081/api',  // ← Meeru Spring Boot running ikkade!
+  baseURL: 'http://split-expense-backend-iemv.onrender.com/api',  // ← Meeru Spring Boot running ikkade!
   headers: {
     'Content-Type': 'application/json',
   },
