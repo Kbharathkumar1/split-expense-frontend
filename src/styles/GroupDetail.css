@@ -1,0 +1,40 @@
+.groupdetail-wrapper {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.expense-item {
+  background-color: #f8f9ff;
+  border: 1px solid #ede9fe;
+  transition: transform 0.15s;
+}
+
+.expense-item:hover {
+  transform: translateX(4px);
+}
+
+.expense-icon-wrap {
+  width: 42px;
+  height: 42px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.balance-item {
+  background-color: #fff5f5;
+  border: 1px solid #fed7d7;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}

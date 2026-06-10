@@ -1,0 +1,46 @@
+.addexpense-wrapper {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.split-option {
+  border: 2px solid #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: white;
+}
+
+.split-option:hover {
+  border-color: #667eea;
+  background-color: #f8f7ff;
+}
+
+.split-active {
+  border-color: #667eea !important;
+  background-color: #ede9fe !important;
+}
+
+.split-preview {
+  background-color: #f0f7ff;
+  border: 1px solid #bfdbfe;
+}
+
+.info-box {
+  background-color: #ede9fe;
+  border-left: 4px solid #667eea;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
